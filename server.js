@@ -11,7 +11,7 @@ const DB_URI = process.env.DB_URI;
 
 
 // CONEXIÓN A BASE DE DATOS
-mongoose.connect(DB_URI, { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect("mongodb+srv://usuario:usuario@cluster0.tguee.mongodb.net/ferreteria?retryWrites=true&w=majority", { useNewUrlParser: true, useUnifiedTopology: true })
     .then(db => console.log("Conexión a BD correcta"))
     .catch(error => console.log("Error al conectarse a la BD" + error));
 
