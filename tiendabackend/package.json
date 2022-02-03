@@ -1,0 +1,35 @@
+{
+  "name": "tiendabackend",
+  "version": "1.0.0",
+  "description": "Backend of a Fullstack webapp",
+  "author": "slvdr510 at github dot com",
+  "license": "GPL",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "webapp",
+    "backend",
+    "fullstack"
+  ],
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.6.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slvdr510/tiendabackend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/slvdr510/tiendabackend/issues"
+  },
+  "homepage": "https://github.com/slvdr510/tiendabackend#readme"
+}
